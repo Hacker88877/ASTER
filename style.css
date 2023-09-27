@@ -1,0 +1,43 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    height: 100vh;
+
+}
+header{
+    height: 100vh;
+    
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+#navbar img{
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    
+}
+#navbar ul {
+    display: flex;
+    
+    list-style: none;
+}
+#navbar ul li a{
+    color: red;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+#navbar ul li a:hover{
+    border-bottom: red solid 2px;
+}
+
+.Aster{
+    color: red;
+}
